@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&display=swap');
+
+.letter {
+    font-family: 'IBM Plex Serif', serif;
+    color: black
+}
+
+.letter-box {
+    background-color: white;
+    border: 5px solid black
+}
+.blank {
+    background-color: green;
+    border: 5px solid black;
+}
+
+header {
+ height: 20vh;
+ text-align: center;
+ padding-top: 15px
+}
+
+.player-box {
+    display: flex;
+    width: 80vw;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+.player-box .card {
+    width: 25em;
+    text-align: center
+}
+.score-card {
+    background-color: black;
+    color: white;
+    height: 5em;
+    margin: 1em;
+}
